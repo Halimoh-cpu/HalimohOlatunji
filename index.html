@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halimoh Olatunji | Data Analyst Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Halimoh Olatunji, an aspiring Data Analyst showcasing SQL, Power BI, Python, and Data Visualization projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans antialiased">
+    
+    <!-- Navigation (Simple Top Bar) -->
+    <header class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+      <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="#" id="nav-name" class="text-xl font-bold tracking-tight text-gray-900">Loading...</a>
+        <nav class="hidden sm:flex gap-6 text-sm font-medium text-gray-600">
+          <a href="#about" class="hover:text-gray-900 transition-colors">About</a>
+          <a href="#skills" class="hover:text-gray-900 transition-colors">Skills</a>
+          <a href="#portfolio" class="hover:text-gray-900 transition-colors">Portfolio</a>
+          <a href="#achievements" class="hover:text-gray-900 transition-colors">Achievements</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-16">
+      <!-- Hero / About Section -->
+      <section id="about" class="py-24 px-6 max-w-5xl mx-auto">
+        <div class="max-w-3xl">
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+            <span id="hero-title">Loading...</span> <br/>
+            <span id="hero-subtitle" class="text-gray-500 font-medium">Loading...</span>
+          </h1>
+          
+          <div class="prose prose-lg text-gray-600 space-y-4">
+            <p id="hero-p1">Fetching data...</p>
+            <p id="hero-p2"></p>
+          </div>
+          
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="#portfolio" class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors">
+              View My Work
+            </a>
+            <a id="btn-linkedin" href="#" target="_blank" class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white border border-gray-200 text-gray-700 font-medium hover:bg-gray-50 transition-colors">
+              LinkedIn Profile
+            </a>
+            <a id="btn-cv" href="#" download class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white border border-gray-200 text-gray-700 font-medium hover:bg-gray-50 transition-colors">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-20 px-6 bg-slate-50 border-y border-gray-100">
+        <div class="max-w-5xl mx-auto">
+          <h2 class="text-2xl font-bold text-slate-900 mb-10">Technical Expertise</h2>
+          
+          <!-- JS will inject skills right here -->
+          <div id="skills-container" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+
+          <!-- JS will inject tags right here -->
+          <div id="tags-container" class="mt-8 flex flex-wrap gap-3"></div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="py-24 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Case Studies</h2>
+        <p class="text-gray-600 mb-12 max-w-2xl">A selection of my recent data analysis projects spanning time-series forecasting, customer segmentation, and business intelligence.</p>
+        
+        <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- JS will inject projects right here -->
+        </div>
+      </section>
+
+      <!-- Platforms Section -->
+      <section id="platforms" class="py-20 px-6 bg-slate-50 border-y border-gray-100">
+        <div class="max-w-5xl mx-auto text-center">
+          <h2 class="text-2xl font-bold text-slate-900 mb-10">Platforms & Presence</h2>
+          <div id="platforms-container" class="flex flex-wrap justify-center gap-6">
+            <!-- JS will inject platforms right here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="achievements" class="py-24 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Achievements & Certifications</h2>
+        <div id="achievements-container" class="relative border-l border-gray-200 ml-3 md:ml-6 space-y-10">
+          <!-- JS will inject achievements right here -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-8 text-center text-sm text-gray-500 border-t border-gray-100 bg-white">
+      <p id="footer-text">&copy; 2026</p>
+      <p class="mt-4">
+        Developed by <a href="https://atlabx.com" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">AtlabX</a>
+      </p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
