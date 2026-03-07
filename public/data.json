@@ -21,15 +21,7 @@
     "Business Intelligence"
   ],
   "projects": [
-    {
-      "title": "Store Sales - Time Series Forecasting",
-      "description": "Using time series forecasting techniques to predict sales for a multitude of stores over several months. This helps organizations leverage past data for smart future decision-making.",
-      "image_placeholder": "Add Dashboard Screenshot",
-      "image_url": "",
-      "tags": ["Python", "Machine Learning"],
-      "link": "#"
-    },
-    {
+      {
       "title": "Customer Mall Segmentation & Clustering",
       "description": "Identifying vital customer groups for targeted marketing. Utilized data analysis and machine learning clustering on demographics and spending behavior.",
       "image_placeholder": "Add Dashboard Screenshot",
